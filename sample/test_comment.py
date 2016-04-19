@@ -49,8 +49,9 @@ class ImageFeatureExtractor(object):
         self.xp = xp
         self.image_model = image_model
 
-    def get_image_feature_from_url(self, image_url):
-        return self.get_image_feature(six.moves.urllib.request.urlopen(image_url))
+    def get_image_feature_from_url(self, image_path):
+        # return self.get_image_feature(six.moves.urllib.request.urlopen(image_url))
+        return self.get_image_feature(image_path)
 
     def get_image_feature(self, image_path):
         # 学習時のバグにより二重に平均画像(128)を引いていることに注意してください。ごめんなさい。
