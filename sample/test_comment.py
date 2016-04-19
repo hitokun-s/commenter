@@ -13,7 +13,7 @@ import illust2comment
 import illust2comment.model
 import illust2comment.utility
 
-GPU = -1
+GPU = 0
 IMAGE_MODEL_PATH = "data/nico_illust_tag_v2.hdf5"
 COMMENT_DATA = "data/seiga_comment_random.tsv"
 
