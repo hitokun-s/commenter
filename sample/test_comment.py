@@ -20,7 +20,8 @@ COMMENT_DATA = "data/seiga_comment_random.tsv"
 COMMENT_MODEL_PATH = "data/nico_comment_feature_v1.hdf5"
 VOCABULARY_PATH = "data/nico_comment_feature_v1_vocabulary.txt"
 
-QUERY_IMAGE_URL = "http://3d.nicovideo.jp/alicia/img/profile_character.png"
+# QUERY_IMAGE_URL = "http://3d.nicovideo.jp/alicia/img/profile_character.png"
+QUERY_IMAGE_URL = "data/test.png"
 
 TARGET_COMMENTS_NUM = 1000
 HIDDEN_UNIT = 1024
